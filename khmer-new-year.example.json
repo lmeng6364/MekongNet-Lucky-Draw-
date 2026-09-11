@@ -1,0 +1,23 @@
+{
+  "_note": "Example alternate winner screen. In the app: Settings -> Import config, choose this file. Then tweak text/colors and upload your own logo/prize/background. Edit freely to make new campaign screens.",
+  "event": { "title": "MekongNet Khmer New Year Draw", "eyebrow": "Khmer New Year Giveaway" },
+  "rules": {
+    "numbers": { "on": true, "min": 3 },
+    "tags": { "on": true, "min": 3, "sensitivity": "balanced" },
+    "keyword": { "on": true, "text": "#MekongNet" },
+    "minLen": { "on": false, "min": 10 },
+    "dedupe": true
+  },
+  "winnerScreen": {
+    "eyebrow": "Khmer New Year Challenge",
+    "headline": "អ្នកឈ្នះទាំង {kh}នាក់",
+    "subtitle": "សូមអបអរសាទរ! រីករាយបុណ្យចូលឆ្នាំខ្មែរ ជាមួយ MekongNet",
+    "pill": "សូមមកទទួលរង្វាន់ក្នុងរយៈពេល ៧ថ្ងៃ",
+    "thanks": "អរគុណសម្រាប់ការចូលរួមរបស់អ្នកទាំងអស់គ្នា",
+    "accent": "#C0392B",
+    "winners": 5,
+    "logo": "",
+    "prize": "",
+    "background": ""
+  }
+}
